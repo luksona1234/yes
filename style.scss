@@ -1,0 +1,32 @@
+.container{
+    max-width: 1920px;
+    height: 2000px;
+    width: 75%;
+    margin-left: 12.5%;
+    border: 5px solid black;
+
+    .navigation{
+        width: 100%;
+        height: 10%;
+        border: 3px solid black;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+
+        .classes{
+            font-size: 45px;
+            font-weight: bold;
+        }
+    }
+    .main-info{
+        width: 100%;
+        height: 80%;
+        border: 3px solid black;
+    }
+    .additional-info{
+        width: 100%;
+        height: 10%;
+        border: 3px solid black;
+    }
+}

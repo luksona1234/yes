@@ -1,0 +1,30 @@
+.container {
+  max-width: 1920px;
+  height: 2000px;
+  width: 75%;
+  margin-left: 12.5%;
+  border: 5px solid black;
+}
+.container .navigation {
+  width: 100%;
+  height: 10%;
+  border: 3px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.container .navigation .classes {
+  font-size: 45px;
+  font-weight: bold;
+}
+.container .main-info {
+  width: 100%;
+  height: 80%;
+  border: 3px solid black;
+}
+.container .additional-info {
+  width: 100%;
+  height: 10%;
+  border: 3px solid black;
+}/*# sourceMappingURL=style.css.map */
